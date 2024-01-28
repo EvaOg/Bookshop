@@ -1,0 +1,145 @@
+[
+  {
+    "cover": "https://i.ibb.co/n7f5QDW/Normal-People-SRooney.jpg",
+    "title": "Normal People",
+    "author": "by S. Rooney",
+    "condition": "Very good",
+    "price": "3.60",
+    "genre": "Fiction"
+  },
+
+  {
+    "cover": "https://i.ibb.co/1Mpyq57/Beautiful-World-SRooney.jpg",
+    "title": "Beautiful World",
+    "author": "by S. Rooney",
+    "condition": "Very good",
+    "price": "3.50",
+    "genre": "Fiction"
+  },
+
+  {
+    "cover": "https://i.ibb.co/3fx4r7K/Fairy-Taleby-SKing.jpg",
+    "title": "Fairy Tale",
+    "author": "by S. King",
+    "condition": "Very good",
+    "price": "3.50",
+    "genre": "Fantasy"
+  },
+
+  {
+    "cover": "https://i.ibb.co/W5wK3W1/1398525685.jpg",
+    "title": "Icebreaker",
+    "author": "by H. Grace",
+    "condition": "Very good",
+    "price": "4.50",
+    "genre": "Romance"
+  },
+
+  {
+    "cover": "https://i.ibb.co/J7MvqZ8/1408725762.jpg",
+    "title": "The Love Hypothesis",
+    "author": "by A. Hazelwood",
+    "condition": "Very good",
+    "price": "3.90",
+    "genre": "Romance"
+  },
+
+  {
+    "cover": "https://i.ibb.co/FBnKY0x/1474612644.jpg",
+    "title": "Murder Before Evensong",
+    "author": "by R. Coles",
+    "condition": "Very good",
+    "price": "3.70",
+    "genre": "Crime"
+  },
+
+  {
+    "cover": "https://i.ibb.co/N2WYZNY/0008196303.jpg",
+    "title": "Murder Is Easy",
+    "author": "by A. Christie",
+    "condition": "New",
+    "price": "7.70",
+    "genre": "Crime"
+  },
+
+  {
+    "cover": "https://i.ibb.co/Pw6DPv5/0008521506.jpg",
+    "title": "Godkiller",
+    "author": "by H. Kaner",
+    "condition": "New",
+    "price": "8.10",
+    "genre": "Fantasy"
+  },
+
+  {
+    "cover": "https://i.ibb.co/BnJ4R1G/0006499155.jpg",
+    "title": "Master and Commander",
+    "author": "by P. O'Brian",
+    "condition": "Very good",
+    "price": "3.10",
+    "genre": "Adventure"
+  },
+
+  {
+    "cover": "https://i.ibb.co/KKdFFfP/1503943372.jpg",
+    "title": "Beneath a Scarlet Sky",
+    "author": "by M. Sullivan",
+    "condition": "Very good",
+    "price": "4.30",
+    "genre": "Adventure"
+  },
+
+  {
+    "cover": "https://i.ibb.co/1X3zgby/0008617643.jpg",
+    "title": "The Prophet and the Idiot",
+    "author": "by J. Jonasson",
+    "condition": "Like New",
+    "price": "6.40",
+    "genre": "Adventure"
+  },
+
+  {
+    "cover": "https://i.ibb.co/7vg7d01/1529335469.jpg",
+    "title": "The Paris Library",
+    "author": "by J. Skeslien Charles",
+    "condition": "Very good",
+    "price": "3.40",
+    "genre": "Adventure"
+  },
+
+  {
+    "cover": "https://i.ibb.co/xS5BSvz/0575089911.jpg",
+    "title": "The Final Empire",
+    "author": "by B. Sandersons",
+    "condition": "Very good",
+    "price": "5.40",
+    "genre": "Fantasy"
+  },
+
+  {
+    "cover": "https://i.ibb.co/t4XY7hW/0008511764.jpg",
+    "title": "Re. Good, Actu.",
+    "author": "by M. Heisey",
+    "condition": "Very good",
+    "price": "4.40",
+    "genre": "Fiction"
+  },
+
+  {
+    "cover": "https://i.ibb.co/2ctP5PJ/1529029589.jpg",
+    "title": "Before the Coffee Gets Cold",
+    "author": "by T. Kawaguchi",
+    "condition": "Very good",
+    "price": "4.60",
+    "genre": "Fiction"
+  },
+
+  {
+    "cover": "https://i.ibb.co/1KpYqn8/0575089938.jpg",
+    "title": "The Well of Ascension",
+    "author": "by B. Sanderson",
+    "condition": "New",
+    "price": "7.60",
+    "genre": "Fantasy"
+  }
+]

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bookshop</title>
+  </head>
+
+
+  <body>
+    <header>
+      <div class="nav">
+        <div class="logo">Bookshop</div>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a class="nav-list-item__link nav-list-item-link--active" href="#"
+              >books</a
+            >
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-item__link" href="#">audiobooks</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-item__link" href="#">stationery & gifts</a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-list-item__link" href="#">blog</a>
+          </li>
+        </ul>
+        <div class="nav-icons">
+          <div class="nav-icon"><img src="vektors/user.svg" alt="user" /></div>
+          <div class="nav-icon">
+            <img src="vektors/search.svg" alt="search" />
+          </div>
+          <div class="nav-icon">
+            <span class="nav-icon-span"></span
+            ><img src="vektors/shop-bag.svg" alt="bag" />
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+        
+    
+ 
+
+
+    
+    <main>
+      
+            <div class="mob-menu-main-conainer">
+            
+                <nav class="mobile-navigation" role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                <ul id="mobile-menu">
+                    <li><a class="mobile-menu-li"  href="#">Books</a></li>
+                    <li><a class="mobile-menu-li" href="#">Audiobooks</a></li>
+                    <li><a class="mobile-menu-li" href="#">Stationery & Gifts</a></li>
+                    <li><a class="mobile-menu-li" href="#">Blog</a></li>
+                    <div class="mobile-menu-icons">
+                        <li><a class="mobile-menu-li mobile-menu-icon" href="#"><img src="vektors/user.svg" alt="user" /></a></li>
+                        <li><a class="mobile-menu-li mobile-menu-icon" href="#"><img src="vektors/search.svg" alt="search" /></a></li>
+                        <li><a class="mobile-menu-li mobile-menu-icon" href="#"><img src="vektors/shop-bag.svg" alt="bag" /></a></li>
+                    </div>
+                </ul>
+
+           
+
+                </nav>
+
+            </div>
+     
+
+
+
+      <div class="section-slider">
+        <div class="sliders">
+          <img
+            class="slider-image slider-image-active"
+            src="https://i.ibb.co/R9P1cyb/banner1.jpg"
+            alt="banner"
+          />
+          <img class="slider-image" src="https://i.ibb.co/D9Ww5R7/banner2.jpg" alt="banner" />
+          <img class="slider-image" src="https://i.ibb.co/RjKgN2c/banner3.jpg" alt="banner" />
+        </div>
+        <div class="slider-dots">
+          <div class="slider-dot slider-dot-active"></div>
+          <div class="slider-dot"></div>
+          <div class="slider-dot"></div>
+        </div>
+        <div class="slider-pic-right-top">
+            <div class="slider-pic-aside">
+                <a href="#"
+                    >Change <br />
+                    old book <br />
+                    on new<br />
+                    <svg
+                    width="57"
+                    height="14"
+                    viewBox="0 0 57 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path d="M0 7H54" stroke="#1C2A39" stroke-width="2" />
+                    <path d="M48 1L55 7L48 13" stroke="#1C2A39" stroke-width="2" />
+                    </svg>
+                </a>
+        </div>
+        </div>
+        <div class="slider-pic-right-bottom">
+            <div class="slider-pic-aside">
+          <a href="#"
+            >top 100 <br />
+            books 2023 <br />
+            <svg
+              width="57"
+              height="14"
+              viewBox="0 0 57 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 7H54" stroke="#1C2A39" stroke-width="2" />
+              <path d="M48 1L55 7L48 13" stroke="#1C2A39" stroke-width="2" />
+            </svg>
+          </a>
+        </div>
+        </div>
+      </div>
+      <div class="section-books">
+        <div class="books-categories">
+          <ul class="books-categories-list">
+            <li class="books-categories-list-item books-categories-list-item-active">All genres</li>
+            <li class="books-categories-list-item">Fiction</li>
+            <li class="books-categories-list-item">Fantasy</li>
+            <li class="books-categories-list-item">Adventure</li>
+            <li class="books-categories-list-item">Romance</li>
+            <li class="books-categories-list-item">Crime</li>
+        </div>
+        <div class="main-books"></div>
+      </div>
+      <div class="main-books-wrapper"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
