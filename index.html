@@ -40,25 +40,19 @@
           <div class="nav-icon">
             <img src="vektors/search.svg" alt="search" />
           </div>
-          <div class="nav-icon">
+          <div class="nav-icon cart-icon" onclick="openCart()">
             <span class="nav-icon-span"></span
-            ><img src="vektors/shop-bag.svg" alt="bag" />
+            ><img src="vektors/shop-bag.svg" alt="bag"/>
+            <div id="cart-items-number"></div>
           </div>
         </div>
       </div>
 
     </header>
-
-        
-    
- 
-
-
     
     <main>
       
             <div class="mob-menu-main-conainer">
-            
                 <nav class="mobile-navigation" role="navigation">
                 <div id="menuToggle">
                     <input type="checkbox" />
@@ -73,17 +67,31 @@
                     <div class="mobile-menu-icons">
                         <li><a class="mobile-menu-li mobile-menu-icon" href="#"><img src="vektors/user.svg" alt="user" /></a></li>
                         <li><a class="mobile-menu-li mobile-menu-icon" href="#"><img src="vektors/search.svg" alt="search" /></a></li>
-                        <li><a class="mobile-menu-li mobile-menu-icon" href="#"><img src="vektors/shop-bag.svg" alt="bag" /></a></li>
+                        <li><a class="mobile-menu-li mobile-menu-icon" href="#" onclick="openCart()"><img src="vektors/shop-bag.svg" alt="bag" class="cart-icon"/><div id="cart-items-number-mob"></div></a></li>
                     </div>
                 </ul>
-
-           
-
                 </nav>
-
             </div>
      
 
+            <div class="popup-cart-container" id="popup-cart-container">
+              <div class="popup-cart">
+                <div class="cart-text-icon">
+                  <p>Cart</p>
+                  <svg
+                  onclick="closeCart()"
+                    class="popup-close-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+                  </svg>
+              </div>
+                <div class="cart-books-wrapper"></div>
+                <div class="cart-books-wrapper ckeck-out-btn">
+                <button class="book-card-description-button ckeck-out-btn">Proceed to check out</button>
+              </div>
+              </div>
+            </div>
 
 
       <div class="section-slider">
@@ -153,6 +161,6 @@
       </div>
       <div class="main-books-wrapper"></div>
     </main>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

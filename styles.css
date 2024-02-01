@@ -349,6 +349,111 @@ a {
   cursor: pointer;
 }
 
+/* cart */
+.cart-icon {
+  cursor: pointer;
+}
+
+#cart-items-number-mob,
+#cart-items-number {
+  position: absolute;
+  font-size: 10px;
+  margin-left: 20px;
+  color: #ff8fe6;
+  margin-top: -40px;
+}
+
+#cart-items-number p,
+#cart-items-number-mob p {
+  margin-block-start: 0;
+}
+
+#cart-items-number {
+  margin-top: -10px;
+}
+
+.cart-text-icon {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.5px solid rgb(185, 185, 185);
+}
+
+.popup-cart-container {
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  display: none;
+}
+
+.cart-book-container {
+  min-width: 300px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.popup-close-icon {
+  position: absolute;
+  right: 16px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.popup-cart {
+  background-color: white;
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 340px;
+  margin: 20% auto;
+}
+
+.book-card-img-cart {
+  width: 70px;
+  height: 107px;
+  filter: drop-shadow(5px 5px 10px rgba(128, 128, 128, 0.402));
+}
+
+.book-card-description-cart {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1rem;
+  line-height: 1rem;
+  gap: 0.5rem;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.delete-from-cart {
+  position: absolute;
+  color: red;
+  margin-top: 75px;
+  cursor: pointer;
+}
+
+.empty-cart-text {
+  text-align: center;
+  margin: 20px;
+}
+
+.ckeck-out-btn {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1500px) {
   .section-books {
     display: flex;
